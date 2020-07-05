@@ -1,0 +1,44 @@
+.body html{
+    height: max-content;
+}
+.bg{
+    background-image: url(galaryback.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: fit-content;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-self: center;
+}
+.bg img{
+    height: 250;
+    width: 250;
+    padding: 15px 15px;
+    overflow: auto;
+}
+.bg p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+    color: yellow;
+}
+.bg a{
+    font-size: 50px;
+    border: solid;
+    text-decoration: none;
+    color: black;
+    background-color: chartreuse;
+    text-align: center;
+
+}
+.bg a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}

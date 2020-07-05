@@ -1,0 +1,32 @@
+.body html{
+    height: 100%;
+}
+.bg{
+    background-color: peachpuff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.bg p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.bg ul{
+    font-size: 20px;
+    font-family: cursive;
+    color: purple;
+    margin-bottom: 150px;
+}
+
+.bg a{
+    border: 1px solid black;
+    font-size: 50px;
+    background-color: chartreuse;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}

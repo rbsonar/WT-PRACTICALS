@@ -1,0 +1,137 @@
+.body html{
+    height: 100%;
+}
+.bg{
+    background-color: aqua;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.header {
+    
+    overflow: auto;
+    position: relative;
+}
+.logo img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    padding: 5px;
+}
+.title {
+    position: absolute;
+    bottom: 10px;
+    display: inline;
+    font-size: 90px;
+    margin-left: 20px;
+    color: red;
+ 
+}
+.navigation {
+    margin-top: 10px;
+    background-color: rgb(13, 201, 13);
+    position: sticky;
+    top: 0;
+    
+    
+}
+.navigation a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-inline: 5px;
+}
+
+.navigation a:hover {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+
+}
+
+.container{
+    /*border: 1px solid black;*/
+    margin-top: 5px;
+    overflow: auto;
+
+}
+.section1{
+    background-color: rgb(170, 111, 224);
+    margin: 10px 0px;
+    overflow: auto;
+    height: 320px;
+    padding-top: 5px;
+    padding-left: 5px;
+    
+    
+}
+.section1 img{
+
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.section2 img{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.section3 img{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.rightside{
+    
+    float: left;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 80px;
+    
+    
+
+}
+.leftside {
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.section2{
+    background-color:red;
+    margin: 10px 0px;
+    overflow: auto;
+    height: 320px;
+    padding-top: 5px;
+    padding-left: 5px;
+  
+}
+
+.section3{
+    background-color: orange;
+    margin: 10px 0px;
+    overflow: auto;
+    height: 320px;
+    padding-top: 5px;
+    padding-left: 5px;
+   
+}
+
+.footer{
+   
+    background-color: aqua;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer p{
+margin: 0;
+}
